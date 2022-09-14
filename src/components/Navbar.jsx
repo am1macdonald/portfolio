@@ -1,28 +1,28 @@
 import React from "react";
-import { NavHashLink } from "react-router-hash-link";
+import { HashLink } from "react-router-hash-link";
 const Navbar = () => {
   return (
     <div>
       <ul>
         <li>
-          <NavHashLink smooth to={"/"}>
+          <HashLink smooth to="/#hero" isactive="true">
             top
-          </NavHashLink>
+          </HashLink>
         </li>
         <li>
-          <NavHashLink smooth to={"/#about"}>
+          <HashLink smooth to="/#about">
             about
-          </NavHashLink>
+          </HashLink>
         </li>
         <li>
-          <NavHashLink smooth to={"/#projects"}>
+          <HashLink smooth to="/#projects">
             projects
-          </NavHashLink>
+          </HashLink>
         </li>
         <li>
-          <NavHashLink smooth to={"/#contact"}>
+          <HashLink smooth to="/#contact">
             contact
-          </NavHashLink>
+          </HashLink>
         </li>
       </ul>
     </div>
