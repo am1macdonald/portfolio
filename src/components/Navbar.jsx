@@ -1,29 +1,17 @@
 import React from "react";
-import { HashLink } from "react-router-hash-link";
+
+function activeAnnouncement() {
+  console.log("im active!!");
+}
+
 const Navbar = () => {
   return (
     <div>
       <ul>
-        <li>
-          <HashLink smooth to="/#hero" isactive="true">
-            top
-          </HashLink>
-        </li>
-        <li>
-          <HashLink smooth to="/#about">
-            about
-          </HashLink>
-        </li>
-        <li>
-          <HashLink smooth to="/#projects">
-            projects
-          </HashLink>
-        </li>
-        <li>
-          <HashLink smooth to="/#contact">
-            contact
-          </HashLink>
-        </li>
+        <li>top</li>
+        <li>about</li>
+        <li>projects</li>
+        <li>contact</li>
       </ul>
     </div>
   );
