@@ -10,9 +10,7 @@ This is a collection of some of my favorite projects I have built over the years
 
 ## Technologies
 
-// section under construction
-
-## Challenges
+Built with create react app for rapid setup and support of tooling.
 
 // section under construction
 
