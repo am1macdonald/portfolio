@@ -8,6 +8,9 @@ const Navbar = () => {
     <nav className={nav}>
       <ul className={navlist}>
         <li>
+          <a href="#top">top</a>
+        </li>
+        <li>
           <a href="#about">about</a>
         </li>
         <li>
