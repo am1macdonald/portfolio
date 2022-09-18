@@ -1,3 +1,3 @@
-const projectLibrary = [];
+const projectLibrary = [{}, {}, {}, {}];
 
 export default projectLibrary;
