@@ -1,7 +1,7 @@
 import React from "react";
 import Styles from "./Projects.module.scss";
 
-const { projectGrid, projectTile } = Styles;
+const { projectSection, projectGrid, projectTile } = Styles;
 
 const ProjectTile = ({ data }) => {
   const { img, title, summary } = data;
@@ -21,9 +21,11 @@ const Projects = ({ projectLibrary }) => {
   const projectList = projectLibrary.map((proj) => <ProjectTile data={proj} />);
 
   return (
-    <div id="projects" className={projectGrid}>
-      {projectList}
-    </div>
+    <section className={projectSection}>
+      <div id="projects" className={projectGrid}>
+        {projectList}
+      </div>
+    </section>
   );
 };
 
