@@ -1,5 +1,6 @@
 import React from "react";
 import Styles from "./Projects.module.scss";
+import uniqid from "uniqid";
 
 const { projectSection, projectGrid, projectTile } = Styles;
 
@@ -18,7 +19,9 @@ const ProjectTile = ({ data }) => {
 };
 
 const Projects = ({ projectLibrary }) => {
-  const projectList = projectLibrary.map((proj) => <ProjectTile data={proj} />);
+  const projectList = projectLibrary.map((proj) => (
+    <ProjectTile key={uniqid} data={proj} />
+  ));
 
   return (
     <section className={projectSection}>
