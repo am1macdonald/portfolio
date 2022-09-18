@@ -6,7 +6,15 @@ const { contactSection } = Styles;
 const Contact = () => {
   return (
     <section className={contactSection}>
-      <div id="contact">Contact</div>
+      <div id="contact">
+        <h2>Contact me:</h2>
+        <ul>
+          <li>LinkedIn</li>
+          <li>GitHub</li>
+          <li>Twitter</li>
+          <li>email</li>
+        </ul>
+      </div>
     </section>
   );
 };
