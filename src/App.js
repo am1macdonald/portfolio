@@ -1,16 +1,17 @@
 import React from "react";
-import About from "./components/About";
+import About from "./components/About/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import Hero from "./components/Hero";
+import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects";
+import TopButton from "./components/TopButton/TopButton";
 
 function App() {
   return (
     <div data-testid="app">
       <Navbar />
-      <h1>Adam's Portfolio</h1>
+      <TopButton />
       <Hero />
       <About />
       <Projects />
