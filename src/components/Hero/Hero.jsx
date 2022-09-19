@@ -12,11 +12,13 @@ const Hero = () => {
           <br />
           MacDonald
         </h1>
-        <p>Web-developer | Animal | Lover</p>
-        <p>JavaScript | HTML | CSS | SASS | Webpack | jQuery | Bootstrap | React</p>
+        <p>Front-End Web Developer</p>
+        <p>
+          JavaScript | HTML | CSS | SASS | Webpack | jQuery | Bootstrap | React
+        </p>
       </div>
       <div>
-        <img src={profilePic} alt="a picture of me probably" />
+        <img src={profilePic} alt="me probably" />
       </div>
     </section>
   );
