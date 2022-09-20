@@ -31,7 +31,7 @@ const Contact = () => {
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://google.ca">
               <FontAwesomeIcon icon={faEnvelope} />
             </a>
           </li>
