@@ -1,18 +1,40 @@
 import React from "react";
 import Styles from "./Contact.module.scss";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 const { contactSection } = Styles;
 
 const Contact = () => {
   return (
-    <section className={contactSection}>
-      <div id="contact">
-        <h2>Connect with me:</h2>
+    <section id="contact" className={contactSection}>
+      <div>
+        <p>Connect with me...</p>
         <ul>
-          <li>LinkedIn</li>
-          <li>GitHub</li>
-          <li>Twitter</li>
-          <li>email</li>
+          <li>
+            <a href="https://www.linkedin.com/in/am1macdonald/">
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/am1macdonald">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/xAMacDonaldx/with_replies">
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <FontAwesomeIcon icon={faEnvelope} />
+            </a>
+          </li>
         </ul>
       </div>
     </section>
