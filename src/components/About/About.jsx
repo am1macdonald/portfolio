@@ -1,16 +1,18 @@
 import React from "react";
 import Styles from "./About.module.scss";
+import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import remarkGfm from "remark-gfm";
 
 const { aboutSection } = Styles;
 
-const About = () => {
+const About = ({ summary, statement }) => {
   return (
     <section id="about" className={aboutSection}>
       <div>
-        <p>This is a paragraph about how I got into programming.</p>
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>{summary}</ReactMarkdown>
       </div>
       <div>
-        <p>This is a paragraph about how good I am at programming stuff.</p>
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>{statement}</ReactMarkdown>
       </div>
     </section>
   );
