@@ -5,7 +5,6 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import remarkGfm from "remark-gfm";
-import { async } from "@firebase/util";
 
 const { projectSection, projectGrid, projectTile, projectThumbnail } = Styles;
 
@@ -13,8 +12,6 @@ const ProjectTile = ({ project, getFromStorage }) => {
   const { thumbnail, live, repo, title, summary } = project;
 
   const [imageURL, setImageURL] = useState("");
-
-  const [summaryURL, setSummaryURL] = useState("");
 
   const [summaryText, setSummaryText] = useState("");
 
@@ -33,7 +30,7 @@ const ProjectTile = ({ project, getFromStorage }) => {
     };
     getAndSet(thumbnail, setImageURL);
     getMarkDown();
-  }, []);
+  }, [getFromStorage, summary, thumbnail]);
 
   return (
     <div className={projectTile}>
