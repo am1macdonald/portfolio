@@ -27,7 +27,7 @@ const getProjectCollection = async () => {
   return projectCollection;
 };
 
-const getImageFromStorage = async (bucketUri) => {
+const getFromStorage = async (bucketUri) => {
   // Create a reference from a Google Cloud Storage URI
   const gsReference = ref(storage, bucketUri);
 
@@ -36,4 +36,4 @@ const getImageFromStorage = async (bucketUri) => {
   return result;
 };
 
-export { getProjectCollection, getImageFromStorage };
+export { getProjectCollection, getFromStorage };

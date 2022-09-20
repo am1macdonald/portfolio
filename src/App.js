@@ -8,7 +8,7 @@ import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
 import {
-  getImageFromStorage,
+  getFromStorage,
   getProjectCollection,
 } from "./firebase/firebase_config";
 
@@ -42,7 +42,7 @@ function App() {
       <Navbar />
       <Hero />
       <About summary={summary} statement={statement} />
-      <Projects projects={projects} getImage={getImageFromStorage} />
+      <Projects projects={projects} getFromStorage={getFromStorage} />
       <Contact />
       <Footer />
     </div>
