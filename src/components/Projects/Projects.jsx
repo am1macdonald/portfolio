@@ -22,15 +22,20 @@ const ProjectTile = ({ project, getImage }) => {
 
   return (
     <div className={projectTile}>
-      <img src={imageURL} alt="thumbnail" className={projectThumbnail} />
       <div>
-        <h3>{title}</h3>
-        <p>
-          Live: <a href={live}>{live}</a>
-        </p>
-        <p>
-          Repo: <a href={repo}>{repo}</a>
-        </p>
+        <img src={imageURL} alt="thumbnail" className={projectThumbnail} />
+        <div>
+          <h3>{title}</h3>
+          <p>
+            Live: <a href={live}>{live}</a>
+          </p>
+          <p>
+            Repo: <a href={repo}>{repo}</a>
+          </p>
+        </div>
+      </div>
+
+      <div>
         <summary></summary>
       </div>
     </div>
