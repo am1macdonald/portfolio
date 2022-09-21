@@ -14,7 +14,6 @@ import {
 
 function App() {
   const [summary, setSummary] = useState("");
-  const [philosophy, setPhilosophy] = useState("");
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
@@ -22,12 +21,6 @@ function App() {
       .then((result) => result.text())
       .then((text) => setSummary(text));
   }, []);
-
-  useEffect(() => {
-    fetch("Philosophy.md")
-      .then((result) => result.text())
-      .then((text) => setPhilosophy(text));
-  });
 
   useEffect(() => {
     const fetchProjects = async () => {
@@ -41,7 +34,7 @@ function App() {
     <div data-testid="app">
       <Navbar />
       <Hero />
-      <About summary={summary} philosophy={philosophy} />
+      <About summary={summary} />
       <Projects projects={projects} getFromStorage={getFromStorage} />
       <Contact />
       <Footer />

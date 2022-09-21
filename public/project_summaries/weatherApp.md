@@ -1,1 +1,4 @@
-Then maybe you should consider this: if anything happens to them, Starfleet is going to want a full investigation. Could someone survive inside a transporter buffer for 75 years? We have a saboteur aboard. Now, how the hell do we defeat an enemy that knows us better than we know ourselves? Wouldn't that bring about chaos? How long can two people talk about nothing? Wait a minute - you've been declared dead. You can't give orders around here. I'd like to think that I haven't changed those things, sir. I recommend you don't fire until you're within 40,000 kilometers. And blowing into maximum warp speed, you appeared for an instant to be in two places at once. Earl Grey tea, watercress sandwiches... and Bularian canapés? Are you up for promotion?
+Gives the user a simple interface to find the weather forecast for their area.<br>
+There is the ability to use both browser location services or a search function for finding forcasts.
+
+Weather is fetched from [OpenWeather's](https://openweathermap.org/) API, as well as geolocation services for interpolating the users coordintates from the location service API.

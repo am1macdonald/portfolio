@@ -5,14 +5,11 @@ import remarkGfm from "remark-gfm";
 
 const { aboutSection } = Styles;
 
-const About = ({ summary, philosophy }) => {
+const About = ({ summary }) => {
   return (
     <section id="about" className={aboutSection}>
       <div>
         <ReactMarkdown remarkPlugins={[remarkGfm]}>{summary}</ReactMarkdown>
-      </div>
-      <div>
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{philosophy}</ReactMarkdown>
       </div>
     </section>
   );
