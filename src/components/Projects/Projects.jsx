@@ -35,20 +35,24 @@ const ProjectTile = ({ project, getFromStorage }) => {
   return (
     <div className={projectTile}>
       <div>
-        <img src={imageURL} alt="thumbnail" className={projectThumbnail} />
+        <div>
+          <img src={imageURL} alt="thumbnail" className={projectThumbnail} />
+        </div>
+
         <div>
           <h3>{title}</h3>
-          <p>
-            Live: <a href={live}>{live}</a>
-          </p>
-          <p>
-            Repo: <a href={repo}>{repo}</a>
-          </p>
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>
+            {summaryText}
+          </ReactMarkdown>
         </div>
       </div>
-
       <div>
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{summaryText}</ReactMarkdown>
+        <p>
+          Live: <a href={live}>{live}</a>
+        </p>
+        <p>
+          Repo: <a href={repo}>{repo}</a>
+        </p>
       </div>
     </div>
   );
