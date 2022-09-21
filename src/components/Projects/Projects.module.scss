@@ -1,3 +1,9 @@
+// colours
+$blackish: #201e1f;
+$whitish: #dcdde1;
+$dark-blue: #5339b8;
+$light-blue: #6f67f0;
+
 .projectGrid {
   display: flex;
   flex-direction: column;
@@ -10,6 +16,14 @@
   justify-content: space-evenly;
   align-items: center;
 
+  padding: 6vh 1vw;
+  margin: 3vh 5vw;
+
+  border: 8px solid $light-blue;
+  box-shadow: 12px 20px 0px $dark-blue;
+
+  background-color: rgba(15, 15, 15, 0.148);
+
   div:first-of-type {
     display: flex;
     align-items: center;
@@ -19,6 +33,10 @@
     div:nth-of-type(2) {
       max-width: 40%;
     }
+  }
+
+  img {
+    box-shadow: 5px 5px 5px black;
   }
 }
 .projectThumbnail {
