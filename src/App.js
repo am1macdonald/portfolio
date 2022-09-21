@@ -4,6 +4,7 @@ import { useState } from "react";
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import FormPopup from "./components/FormPopup/FormPopup";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import Projects from "./components/Projects/Projects";
@@ -16,6 +17,7 @@ function App() {
   const [summary, setSummary] = useState("");
   const [philosophy, setPhilosophy] = useState("");
   const [projects, setProjects] = useState([]);
+  const [popupOpen, setPopupOpen] = useState(false);
 
   useEffect(() => {
     fetch("Summary.md")
@@ -39,12 +41,13 @@ function App() {
 
   return (
     <div data-testid="app">
-      <Navbar />
+      {!popupOpen && <Navbar />}
       <Hero />
       <About summary={summary} philosophy={philosophy} />
       <Projects projects={projects} getFromStorage={getFromStorage} />
-      <Contact />
+      <Contact openForm={() => setPopupOpen(true)} />
       <Footer />
+      {popupOpen && <FormPopup closeForm={() => setPopupOpen(false)} />}
     </div>
   );
 }

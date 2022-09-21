@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 const { contactSection } = Styles;
 
-const Contact = () => {
+const Contact = ({ openForm }) => {
   return (
     <section id="contact" className={contactSection}>
       <div>
@@ -31,9 +31,9 @@ const Contact = () => {
             </a>
           </li>
           <li>
-            <a href="https://google.ca">
+            <button onClick={openForm}>
               <FontAwesomeIcon icon={faEnvelope} />
-            </a>
+            </button>
           </li>
         </ul>
       </div>
