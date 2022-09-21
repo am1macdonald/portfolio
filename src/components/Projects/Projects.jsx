@@ -36,7 +36,9 @@ const ProjectTile = ({ project, getFromStorage }) => {
     <div className={projectTile}>
       <div>
         <div>
-          <img src={imageURL} alt="thumbnail" className={projectThumbnail} />
+          <a href={live}>
+            <img src={imageURL} alt="thumbnail" className={projectThumbnail} />
+          </a>
         </div>
 
         <div>
