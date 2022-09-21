@@ -1,13 +1,5 @@
-## Who am I?
+## About me
 
-No, Really.
+I'm a front-end developer located in Toronto.
 
-Who am I?
-
-How did I get in here?
-
-Where is all the pizza?
-
-I don't know why, but...
-
-I'm sure there was one slice left...
+Coming from a background in railway signalling; I apply the critical thinking and analytical skills I've honed from years of trobleshooting relay logic systems, to producing high quality web pages and applications.
