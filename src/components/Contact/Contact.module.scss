@@ -21,14 +21,4 @@ $light-blue: #6f67f0;
     font-size: 3em;
     color: $whitish;
   }
-  button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3em;
-    color: $whitish;
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-    cursor: pointer;
-  }
 }

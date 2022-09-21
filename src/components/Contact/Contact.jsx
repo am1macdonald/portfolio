@@ -9,31 +9,37 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 const { contactSection } = Styles;
 
-const Contact = ({ openForm }) => {
+const Contact = () => {
   return (
     <section id="contact" className={contactSection}>
       <div>
         <p>Connect with me...</p>
         <ul>
           <li>
-            <a href="https://www.linkedin.com/in/am1macdonald/">
+            <a
+              title="LinkedIn"
+              href="https://www.linkedin.com/in/am1macdonald/"
+            >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </li>
           <li>
-            <a href="https://github.com/am1macdonald">
+            <a title="GitHub" href="https://github.com/am1macdonald">
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/xAMacDonaldx/with_replies">
+            <a
+              title="Twitter"
+              href="https://twitter.com/xAMacDonaldx/with_replies"
+            >
               <FontAwesomeIcon icon={faTwitter} />
             </a>
           </li>
           <li>
-            <button onClick={openForm}>
+            <a title="Google form" href="https://forms.gle/DhZ2s6FkFkbwyF118">
               <FontAwesomeIcon icon={faEnvelope} />
-            </button>
+            </a>
           </li>
         </ul>
       </div>
