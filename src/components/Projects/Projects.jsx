@@ -61,14 +61,15 @@ const ProjectTile = ({ project, getFromStorage }) => {
 };
 
 const Projects = ({ projects, getFromStorage }) => {
-  console.log(projects);
-  const projectList = projects.map((project) => (
-    <ProjectTile
-      key={uniqid()}
-      project={project}
-      getFromStorage={getFromStorage}
-    />
-  ));
+  const projectList = [...projects]
+    .reverse()
+    .map((project) => (
+      <ProjectTile
+        key={uniqid()}
+        project={project}
+        getFromStorage={getFromStorage}
+      />
+    ));
 
   return (
     <section className={projectSection}>
