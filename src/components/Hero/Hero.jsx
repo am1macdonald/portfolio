@@ -1,7 +1,6 @@
 import React from "react";
 import Styles from "./Hero.module.scss";
-import profilePic from "./me_lol-t500x500.jpg";
-const { heroDiv } = Styles;
+const { heroDiv, clipFront, clipBack, shapeContainer } = Styles;
 
 const Hero = () => {
   return (
@@ -17,8 +16,9 @@ const Hero = () => {
           JavaScript | HTML | CSS | SASS | Webpack | jQuery | Bootstrap | React
         </p>
       </div>
-      <div>
-        <img src={profilePic} alt="me probably" />
+      <div className={shapeContainer}>
+        <div className={clipFront}></div>
+        <div className={clipBack}></div>
       </div>
     </section>
   );

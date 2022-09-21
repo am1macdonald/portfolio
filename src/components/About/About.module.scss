@@ -5,8 +5,15 @@
   gap: 2vw;
 
   div {
+    max-width: 40%;
+    h2 {
+      font-size: 3vmin;
+      margin-bottom: 1vh;
+    }
     p {
       text-align: justify;
+
+      line-height: 1.3em;
     }
   }
 }

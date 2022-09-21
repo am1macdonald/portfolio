@@ -37,6 +37,10 @@ $light-blue: #6f67f0;
 
   img {
     box-shadow: 5px 5px 5px black;
+    &:hover {
+      transform: scale(1.02);
+    }
+    transition: transform 200ms ease-in-out;
   }
 }
 .projectThumbnail {
