@@ -1,4 +1,3 @@
-Gives the user a simple interface to find the weather forecast for their area.<br>
-There is the ability to use both browser location services or a search function for finding forcasts.
+"Sunny Days" gives users a simple interface to search for and find weather forecasts. The browser Geolocation API or a built-in search function can be used by users to find local weather data. The application fetches weather data from [OpenWeather's](https://openweathermap.org/) API. The app can display weather using either imperial or metric units, which are user selectable.
 
-Weather is fetched from [OpenWeather's](https://openweathermap.org/) API, as well as geolocation services for interpolating the users coordintates from the location service API.
+The app calls Geolocation services from OpenWeather to retrieve city data to get a usable location from the browser's Geolocation API.
