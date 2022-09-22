@@ -5,15 +5,19 @@
   gap: 2vw;
 
   div {
-    max-width: 40%;
+    max-width: 90vw;
+    padding: 2vw;
     h2 {
-      font-size: 3vmin;
+      font-size: clamp(1.5em, 5vw, 2.5em);
+      margin-bottom: 3vh;
+    }
+    p:first-of-type {
       margin-bottom: 1vh;
     }
     p {
       text-align: justify;
 
-      line-height: 1.3em;
+      line-height: 1.4em;
     }
   }
 }

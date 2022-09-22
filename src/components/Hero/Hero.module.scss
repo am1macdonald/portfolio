@@ -14,7 +14,7 @@ $light-blue: #6f67f0;
   }
   h1 {
     border-top: 6px solid #dcdde1;
-    font-size: 10vh;
+    font-size: clamp(1.6em, 6vw, 3.5em);
   }
   p {
     border-top: 2px solid #dcdde1;
@@ -27,7 +27,7 @@ $light-blue: #6f67f0;
 }
 .shapeContainer {
   position: relative;
-  width: min(40%, 500px);
+  width: 550px;
 }
 .clipFront {
   width: 100%;
