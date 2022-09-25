@@ -41,6 +41,21 @@ const ProjectTile = ({ project, getFromStorage }) => {
           <a href={live}>
             <img src={imageURL} alt="thumbnail" className={projectThumbnail} />
           </a>
+
+          <div>
+            <div>
+              <a href={live}>
+                <FontAwesomeIcon icon={faPlay} />
+              </a>
+              <p>Live</p>
+            </div>
+            <div>
+              <a href={repo}>
+                <FontAwesomeIcon icon={faDatabase} />
+              </a>
+              <p>Repo</p>
+            </div>
+          </div>
         </div>
 
         <div>
@@ -48,20 +63,6 @@ const ProjectTile = ({ project, getFromStorage }) => {
           <ReactMarkdown remarkPlugins={[remarkGfm]}>
             {summaryText}
           </ReactMarkdown>
-        </div>
-      </div>
-      <div>
-        <div>
-          <a href={live}>
-            <FontAwesomeIcon icon={faPlay} />
-          </a>
-          <p></p>
-        </div>
-        <div>
-          <a href={repo}>
-            <FontAwesomeIcon icon={faDatabase} />
-          </a>
-          <p></p>
         </div>
       </div>
     </div>
