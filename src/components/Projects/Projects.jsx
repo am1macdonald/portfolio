@@ -5,6 +5,8 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import remarkGfm from "remark-gfm";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlay, faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 const { projectSection, projectGrid, projectTile, projectThumbnail } = Styles;
 
@@ -49,12 +51,18 @@ const ProjectTile = ({ project, getFromStorage }) => {
         </div>
       </div>
       <div>
-        <p>
-          Live: <a href={live}>{live}</a>
-        </p>
-        <p>
-          Repo: <a href={repo}>{repo}</a>
-        </p>
+        <div>
+          <a href={live}>
+            <FontAwesomeIcon icon={faPlay} />
+          </a>
+          <p></p>
+        </div>
+        <div>
+          <a href={repo}>
+            <FontAwesomeIcon icon={faDatabase} />
+          </a>
+          <p></p>
+        </div>
       </div>
     </div>
   );
