@@ -82,6 +82,7 @@ const Projects = ({ projects, getFromStorage }) => {
 
   return (
     <section className={projectSection}>
+      <h2>Projects</h2>
       <div id="projects" className={projectGrid}>
         {projectList}
       </div>
