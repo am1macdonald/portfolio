@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <section id="contact" className={contactSection}>
       <div>
-        <p>Connect with me...</p>
+        <h3>Connect with me!</h3>
         <ul>
           <li>
             <a
