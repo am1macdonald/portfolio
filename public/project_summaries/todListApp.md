@@ -2,4 +2,4 @@
 
 The date-fns library is used to organize tasks by date and apply user-friendly formatting, while Firebase powers the back end to provide user authentication and cloud storage services.
 
-Technologies & tools:
+Technologies & tools: JavaScript, HTML, CSS, Firebase, Webpack, ESLint, Prettier
