@@ -120,16 +120,6 @@ $light-blue: #6f67f0;
 
       div:first-of-type {
         gap: 4vh;
-        div {
-          div {
-            a {
-            }
-            a:hover {
-            }
-            p {
-            }
-          }
-        }
       }
 
       div:nth-of-type(2) {
@@ -137,13 +127,15 @@ $light-blue: #6f67f0;
         h3 {
           margin-bottom: 2vh;
         }
+        p {
+          text-align: left;
+          padding: 1.5vh 0;
+        }
       }
     }
 
     img {
       max-width: 90%;
-      &:hover {
-      }
     }
   }
 }
