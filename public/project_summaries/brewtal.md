@@ -4,4 +4,5 @@ This app is a work in progress.
 
 Technologies & tools:
 
-JavaScript - SvelteKit, Rust - Rocket Web framework
+JavaScript - SvelteKit
+Rust - Rocket Web framework
