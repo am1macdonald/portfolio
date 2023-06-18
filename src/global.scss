@@ -5,24 +5,24 @@ $dark-blue: #5339b8;
 $light-blue: #6f67f0;
 
 @font-face {
-    font-family: "Monograf";
-    src: url("../fonts/Monograf/Monograf Bold.ttf") format("truetype"),
-    url("../fonts/Monograf/Monograf Regular.ttf") format("truetype"),
-    url("../fonts/Monograf/Monograf Text Bold.ttf") format("truetype"),
-    url("../fonts/Monograf/Monograf Text Regular.ttf") format("truetype");
-    font-display: swap;
+	font-family: 'Monograf';
+	src: url('fonts/Monograf/Monograf Bold.ttf') format('truetype'),
+		url('fonts/Monograf/Monograf Regular.ttf') format('truetype'),
+		url('fonts/Monograf/Monograf Text Bold.ttf') format('truetype'),
+		url('fonts/Monograf/Monograf Text Regular.ttf') format('truetype');
+	font-display: swap;
 }
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 body {
-    font-family: "Monograf", Arial, Helvetica, sans-serif;
-    background-color: $blackish;
-    color: $whitish;
+	font-family: 'Monograf', Arial, Helvetica, sans-serif;
+	background-color: $blackish;
+	color: $whitish;
 }
 section {
-    padding: 5vh 2vw;
+	padding: 5vh 2vw;
 }
