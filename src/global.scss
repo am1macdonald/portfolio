@@ -4,14 +4,8 @@ $whitish: #dcdde1;
 $dark-blue: #5339b8;
 $light-blue: #6f67f0;
 
-@font-face {
-	font-family: 'Monograf';
-	src: url('fonts/Monograf/Monograf Bold.ttf') format('truetype'),
-		url('fonts/Monograf/Monograf Regular.ttf') format('truetype'),
-		url('fonts/Monograf/Monograf Text Bold.ttf') format('truetype'),
-		url('fonts/Monograf/Monograf Text Regular.ttf') format('truetype');
-	font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
+
 * {
 	box-sizing: border-box;
 }
@@ -19,7 +13,7 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	font-family: 'Monograf', Arial, Helvetica, sans-serif;
+	font-family: 'Fira Mono', monospace;
 	background-color: $blackish;
 	color: $whitish;
 }

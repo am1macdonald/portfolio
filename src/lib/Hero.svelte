@@ -9,7 +9,10 @@
 			MacDonald
 		</h1>
 		<p>Front-End Web Developer</p>
-		<p>JavaScript | HTML | CSS | SASS | Webpack | jQuery | Bootstrap | React</p>
+		<p>
+			JavaScript | TypeScript | Angular | HTML5 | CSS | Bootstrap | React | Webpack | Git | GitHub |
+			AWS | Scala
+		</p>
 	</div>
 	<div class="shapeContainer">
 		<div class="clipFront" />

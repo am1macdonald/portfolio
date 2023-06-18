@@ -1,6 +1,6 @@
 <script>
-	import 'src/reset.scss';
-	import 'src/global.scss';
+	import '../reset.scss';
+	import '../global.scss';
 	import Hero from '$lib/Hero.svelte';
 	import About from '$lib/About.svelte';
 	import Footer from '$lib/Footer.svelte';

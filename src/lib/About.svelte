@@ -2,12 +2,16 @@
 	<div>
 		<h2>About me</h2>
 
-		<p>I'm a front-end developer located in Toronto.</p>
+		<p>I'm a full-stack developer located in Toronto.</p>
 
 		<p>
-			Coming from a background in railway signalling, I am applying the critical thinking and
-			analytical skills I've honed from years of troubleshooting relay logic systems to producing
-			high-quality web pages and applications.
+			As a full-stack developer with a year of experience in the field, I am passionate about web
+			development and eager to continue learning and growing in my career. My background in
+			industrial automation and railway signalling has given me a strong foundation in
+			problem-solving and logical thinking, which I apply to my work as a developer. I have built
+			many projects using technologies such as HTML, CSS, JavaScript, Angular, React, and
+			Test-driven Development. I am always looking for new challenges and opportunities in the field
+			of software development, and I am excited to see what the future holds.
 		</p>
 	</div>
 </section>
