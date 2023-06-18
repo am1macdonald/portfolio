@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<header>
+	<slot name="hero" />
+</header>
+
+<main>
+	<slot name="about" />
+	<slot name="projects" />
+	<slot name="contact" />
+</main>
+
+<footer>
+	<slot name="footer" />
+</footer>
