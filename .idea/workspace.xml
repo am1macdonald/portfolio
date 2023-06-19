@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca53d223-4df1-4422-80f2-ef0d30df78e3" name="Changes" comment="Prepare for aws sdk">
+    <list default="true" id="ca53d223-4df1-4422-80f2-ef0d30df78e3" name="Changes" comment="Add aws adapter">
+      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/server/db/types.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/routes/+layout.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/+page.server.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -33,6 +38,7 @@
         <option value="ProjectTile" />
         <option value="SCSS File" />
         <option value="+layout.server.ts" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -140,7 +146,7 @@
       <workItem from="1686491401124" duration="214000" />
       <workItem from="1686532776875" duration="17000" />
       <workItem from="1687127776625" duration="3210000" />
-      <workItem from="1687137322873" duration="1602000" />
+      <workItem from="1687137322873" duration="2026000" />
     </task>
     <task id="LOCAL-00001" summary="Update components">
       <created>1687138331171</created>
@@ -156,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687138359659</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add aws adapter">
+      <created>1687139348293</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687139348293</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +178,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update components" />
     <MESSAGE value="Prepare for aws sdk" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare for aws sdk" />
+    <MESSAGE value="Add aws adapter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add aws adapter" />
   </component>
 </project>
