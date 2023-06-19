@@ -8,6 +8,4 @@
 	<slot name="contact" />
 </main>
 
-<footer>
-	<slot name="footer" />
-</footer>
+<slot name="footer" />

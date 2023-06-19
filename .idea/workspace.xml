@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca53d223-4df1-4422-80f2-ef0d30df78e3" name="Changes" comment="">
+    <list default="true" id="ca53d223-4df1-4422-80f2-ef0d30df78e3" name="Changes" comment="Update components">
+      <change afterPath="$PROJECT_DIR$/src/lib/Project/Projects.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Project/projectTileModule.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/About.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/About.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Hero.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Hero.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Footer.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Navbar.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Projects.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Project/ProjectTile.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +34,7 @@
         <option value="Footer" />
         <option value="+layout" />
         <option value="CSS File" />
+        <option value="ProjectTile" />
         <option value="SCSS File" />
       </list>
     </option>
@@ -66,6 +74,7 @@
       <recent name="$PROJECT_DIR$/src/components/Blog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib/Project" />
       <recent name="$PROJECT_DIR$/old" />
     </key>
   </component>
@@ -101,10 +110,23 @@
       <workItem from="1686491401124" duration="214000" />
       <workItem from="1686532776875" duration="17000" />
       <workItem from="1687127776625" duration="3210000" />
+      <workItem from="1687137322873" duration="1009000" />
     </task>
+    <task id="LOCAL-00001" summary="Update components">
+      <created>1687138331171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687138331171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update components" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update components" />
   </component>
 </project>
