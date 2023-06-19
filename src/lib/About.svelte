@@ -5,13 +5,12 @@
 		<p>I'm a full-stack developer located in Toronto.</p>
 
 		<p>
-			As a full-stack developer with a year of experience in the field, I am passionate about web
-			development and eager to continue learning and growing in my career. My background in
-			industrial automation and railway signalling has given me a strong foundation in
-			problem-solving and logical thinking, which I apply to my work as a developer. I have built
-			many projects using technologies such as HTML, CSS, JavaScript, Angular, React, and
-			Test-driven Development. I am always looking for new challenges and opportunities in the field
-			of software development, and I am excited to see what the future holds.
+			I'm passionate about web development and eager to continue learning and growing in my career.
+			My background in industrial automation and railway signalling has given me a strong foundation
+			in problem-solving and logical thinking, which I apply to my work as a developer. I have built
+			many projects using technologies such as HTML, CSS, JavaScript, Angular, React, and others too
+			numerous to list. I am always looking for new challenges and opportunities in the field of
+			software development, and I am excited to see what the future holds.
 		</p>
 	</div>
 </section>
