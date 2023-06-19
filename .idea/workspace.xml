@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca53d223-4df1-4422-80f2-ef0d30df78e3" name="Changes" comment="Update components">
-      <change afterPath="$PROJECT_DIR$/src/lib/Project/Projects.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/Project/projectTileModule.scss" afterDir="false" />
+    <list default="true" id="ca53d223-4df1-4422-80f2-ef0d30df78e3" name="Changes" comment="Prepare for aws sdk">
+      <change afterPath="$PROJECT_DIR$/src/routes/+layout.server.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/About.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/About.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Footer.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Footer.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Navbar.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Projects.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Project/ProjectTile.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Project/Projects.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Project/Projects.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/reset.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +32,7 @@
         <option value="CSS File" />
         <option value="ProjectTile" />
         <option value="SCSS File" />
+        <option value="+layout.server.ts" />
       </list>
     </option>
   </component>
@@ -78,7 +75,7 @@
       <recent name="$PROJECT_DIR$/old" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="index page has expected h1" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <vitest-package value="$PROJECT_DIR$/node_modules/vitest" />
@@ -91,8 +88,41 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="format" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="format" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.lint" />
+        <item itemvalue="npm.format" />
         <item itemvalue="Vitest.index page has expected h1" />
       </list>
     </recent_temporary>
@@ -110,7 +140,7 @@
       <workItem from="1686491401124" duration="214000" />
       <workItem from="1686532776875" duration="17000" />
       <workItem from="1687127776625" duration="3210000" />
-      <workItem from="1687137322873" duration="1009000" />
+      <workItem from="1687137322873" duration="1602000" />
     </task>
     <task id="LOCAL-00001" summary="Update components">
       <created>1687138331171</created>
@@ -119,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687138331171</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Prepare for aws sdk">
+      <created>1687138359659</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687138359659</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +164,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update components" />
+    <MESSAGE value="Prepare for aws sdk" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare for aws sdk" />
   </component>
 </project>
