@@ -7,8 +7,6 @@
 	import Navbar from '$lib/Navbar.svelte';
 	import Contact from '$lib/Contact.svelte';
 	import Projects from '$lib/Project/Projects.svelte';
-
-  export const prerender = true;
 </script>
 
 <Navbar slot="navbar" />

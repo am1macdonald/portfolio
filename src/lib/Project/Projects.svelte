@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
 	import './projectTileModule.scss';
 	import ProjectTile from '$lib/Project/ProjectTile.svelte';
 
-	const projects = [];
+	export let projects: Record<string, string>[] = [];
 </script>
 
 <section class="projectSection">
