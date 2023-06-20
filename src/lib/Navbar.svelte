@@ -1,7 +1,7 @@
 <nav class="nav">
 	<ul class="navlist">
 		<li>
-			<a href="#top">top</a>
+			<a href="#hero">top</a>
 		</li>
 		<li>
 			<a href="#about">about</a>
