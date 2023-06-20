@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Project/ProjectTile.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Project/ProjectTile.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +150,7 @@
       <workItem from="1686532776875" duration="17000" />
       <workItem from="1687127776625" duration="3210000" />
       <workItem from="1687137322873" duration="2026000" />
-      <workItem from="1687224634778" duration="325000" />
+      <workItem from="1687224634778" duration="1560000" />
     </task>
     <task id="LOCAL-00001" summary="Update components">
       <created>1687138331171</created>
