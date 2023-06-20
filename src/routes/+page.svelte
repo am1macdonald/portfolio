@@ -1,4 +1,4 @@
-<header>
+<header id="top">
 	<slot name="hero" />
 </header>
 

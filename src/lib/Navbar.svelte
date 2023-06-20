@@ -12,9 +12,9 @@
 		<li>
 			<a href="#contact">contact</a>
 		</li>
-		<li>
-			<a href="#">blog</a>
-		</li>
+		<!--		<li>-->
+		<!--			<a href="#">blog</a>-->
+		<!--		</li>-->
 	</ul>
 </nav>
 

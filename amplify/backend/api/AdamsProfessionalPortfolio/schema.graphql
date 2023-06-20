@@ -1,0 +1,9 @@
+type Project @model @auth(rules: [{ allow: public }]) {
+	id: ID!
+	index: Int
+	title: String
+	repo_url: AWSURL
+	live_url: AWSURL
+	thumbnail: AWSURL
+	summary: AWSURL
+}

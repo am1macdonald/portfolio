@@ -1,5 +1,6 @@
 <script>
 	import './projectTileModule.scss';
+	import SvelteMarkdown from 'svelte-markdown'
 	import Fa from 'svelte-fa';
 	import { faPlay, faDatabase } from '@fortawesome/free-solid-svg-icons';
 	export let props;
@@ -31,7 +32,7 @@
 
 		<div>
 			<h3>{title}</h3>
-			<!--{marked.parse(summaryText)}-->
+			<SvelteMarkdown {summaryText} />
 		</div>
 	</div>
 </div>
