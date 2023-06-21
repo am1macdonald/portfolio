@@ -8,7 +8,7 @@
 			<br />
 			MacDonald
 		</h1>
-		<p>Front-End Web Developer</p>
+		<p>Full-Stack Web Developer</p>
 		<p>
 			JavaScript | TypeScript | Angular | HTML5 | CSS | Bootstrap | React | Webpack | Git | GitHub |
 			AWS | Scala

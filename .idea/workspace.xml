@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca53d223-4df1-4422-80f2-ef0d30df78e3" name="Changes" comment="Add aws adapter">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/amplify/.config/project-config.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/amplify/backend/api/AdamsProfessionalPortfolio/cli-inputs.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/amplify/backend/api/AdamsProfessionalPortfolio/parameters.json" beforeDir="false" />
@@ -19,10 +20,12 @@
       <change beforePath="$PROJECT_DIR$/amplify/team-provider-info.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Hero.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Hero.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/index.d.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/schema.d.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
