@@ -9,14 +9,12 @@
 	import Projects from '$lib/Project/Projects.svelte';
 	import { dev } from '$app/environment';
 	import { inject } from '@vercel/analytics';
-  import { invalidateAll } from "$app/navigation";
 
 	inject({ mode: dev ? 'development' : 'production' });
 
   export let data;
 
   const {projectData} = data;
-  invalidateAll();
 
 </script>
 

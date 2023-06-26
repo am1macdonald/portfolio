@@ -1,6 +1,10 @@
 <script lang="ts">
 	import { onMount } from "svelte";
+	import { invalidate } from "$app/navigation";
 
+	onMount(() => {
+		invalidate(() => true);
+	});
 </script>
 
 <header id="top">

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca53d223-4df1-4422-80f2-ef0d30df78e3" name="Changes" comment="Invalidate 'load' cache" />
+    <list default="true" id="ca53d223-4df1-4422-80f2-ef0d30df78e3" name="Changes" comment="Invalidate all 'load' caches" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,6 +150,7 @@
       <workItem from="1687484873534" duration="3335000" />
       <workItem from="1687520576713" duration="2838000" />
       <workItem from="1687720379762" duration="19443000" />
+      <workItem from="1687741982906" duration="391000" />
     </task>
     <task id="LOCAL-00001" summary="Update components">
       <created>1687138331171</created>
@@ -193,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687741763069</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Invalidate all 'load' caches">
+      <created>1687742080234</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687742080234</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +228,7 @@
     <MESSAGE value="Add Vercel analytics" />
     <MESSAGE value="Integrate SupaBase" />
     <MESSAGE value="Invalidate 'load' cache" />
-    <option name="LAST_COMMIT_MESSAGE" value="Invalidate 'load' cache" />
+    <MESSAGE value="Invalidate all 'load' caches" />
+    <option name="LAST_COMMIT_MESSAGE" value="Invalidate all 'load' caches" />
   </component>
 </project>
