@@ -1,28 +1,28 @@
 <script>
 	import './projectTileModule.scss';
-	import SvelteMarkdown from 'svelte-markdown'
 	import Fa from 'svelte-fa';
 	import { faPlay, faDatabase } from '@fortawesome/free-solid-svg-icons';
 	export let props;
-	const { live, imageURL, repo, title, summaryText } = props;
+	const { live_url, image_url, repo_url, title, summary } = props;
+
 </script>
 
 <div class="projectTile">
 	<div>
 		<div>
-			<a href={live}>
-				<img src={imageURL} alt="thumbnail" class="projectThumbnail" />
+			<a href={live_url}>
+				<img src={image_url} alt="{title} thumbnail" class="projectThumbnail" />
 			</a>
 
 			<div>
 				<div>
-					<a href={live}>
+					<a href={live_url}>
 						<Fa icon={faPlay} />
 					</a>
 					<p>Live</p>
 				</div>
 				<div>
-					<a href={repo}>
+					<a href={repo_url}>
 						<Fa icon={faDatabase} />
 					</a>
 					<p>Repo</p>
@@ -32,7 +32,7 @@
 
 		<div>
 			<h3>{title}</h3>
-			<SvelteMarkdown {summaryText} />
+			<pre>{summary}</pre>
 		</div>
 	</div>
 </div>

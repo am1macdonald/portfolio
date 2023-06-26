@@ -4,28 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca53d223-4df1-4422-80f2-ef0d30df78e3" name="Changes" comment="Add aws adapter">
+    <list default="true" id="ca53d223-4df1-4422-80f2-ef0d30df78e3" name="Changes" comment="Add Vercel analytics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/.config/project-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/AdamsProfessionalPortfolio/cli-inputs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/AdamsProfessionalPortfolio/parameters.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/AdamsProfessionalPortfolio/resolvers/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/AdamsProfessionalPortfolio/schema.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/AdamsProfessionalPortfolio/stacks/CustomResources.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/api/AdamsProfessionalPortfolio/transform.conf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/backend-config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/tags.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/backend/types/amplify-dependent-resources-ref.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/cli.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/amplify/team-provider-info.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Hero.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Hero.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/schema.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/schema.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Project/ProjectTile.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Project/ProjectTile.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Project/Projects.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Project/Projects.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Project/projectTileModule.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Project/projectTileModule.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/server/db/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +55,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/adam/projects/portfolio/src/components/Blog&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/adam/projects/brewtal&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
@@ -85,11 +74,12 @@
       <recent name="$PROJECT_DIR$/src/components/Blog" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/routes/api/images" />
       <recent name="$PROJECT_DIR$/src/lib/Project" />
       <recent name="$PROJECT_DIR$/old" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.lint">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="index page has expected h1" type="JavaScriptTestRunnerVitest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <vitest-package value="$PROJECT_DIR$/node_modules/vitest" />
@@ -144,10 +134,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.format" />
         <item itemvalue="npm.build" />
-        <item itemvalue="npm.dev" />
         <item itemvalue="Vitest.index page has expected h1" />
       </list>
     </recent_temporary>
@@ -167,6 +157,10 @@
       <workItem from="1687127776625" duration="3210000" />
       <workItem from="1687137322873" duration="2026000" />
       <workItem from="1687224634778" duration="5586000" />
+      <workItem from="1687347840567" duration="7867000" />
+      <workItem from="1687484873534" duration="3335000" />
+      <workItem from="1687520576713" duration="2838000" />
+      <workItem from="1687720379762" duration="18070000" />
     </task>
     <task id="LOCAL-00001" summary="Update components">
       <created>1687138331171</created>
@@ -189,16 +183,38 @@
       <option name="project" value="LOCAL" />
       <updated>1687139348293</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Vercel analytics">
+      <created>1687347962096</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687347962096</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update components" />
     <MESSAGE value="Prepare for aws sdk" />
     <MESSAGE value="Add aws adapter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add aws adapter" />
+    <MESSAGE value="Add Vercel analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Vercel analytics" />
   </component>
 </project>
