@@ -1,11 +1,11 @@
-<script lang="ts">
-	import { onMount } from "svelte";
-	import { invalidate } from "$app/navigation";
-
-	onMount(() => {
-		invalidate(() => true);
-	});
-</script>
+<!--<script lang="ts">-->
+<!--	import { onMount } from "svelte";-->
+<!--	// import { invalidateAll } from "$app/navigation";-->
+<!--	//-->
+<!--	// onMount(() => {-->
+<!--	// 	invalidateAll();-->
+<!--	// });-->
+<!--</script>-->
 
 <header id="top">
 	<slot name="hero" />

@@ -24,4 +24,3 @@ export const load = async ({
 
 	return { projectData: response };
 };
-export const prerender = true;

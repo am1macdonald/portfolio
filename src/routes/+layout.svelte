@@ -12,15 +12,14 @@
 
 	inject({ mode: dev ? 'development' : 'production' });
 
-  export let data;
+	export let data, projectData;
 
-  const {projectData} = data;
-
+	$: projectData = data.projectData;
 </script>
 
 <Navbar slot="navbar" />
 <Hero slot="hero" />
 <About slot="about" />
-<Projects slot="projects" projects="{projectData}" />
+<Projects slot="projects" projects={projectData} />
 <Contact slot="contact" />
 <Footer slot="footer" />

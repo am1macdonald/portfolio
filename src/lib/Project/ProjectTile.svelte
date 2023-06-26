@@ -4,7 +4,6 @@
 	import { faPlay, faDatabase } from '@fortawesome/free-solid-svg-icons';
 	export let props;
 	const { live_url, image_url, repo_url, title, summary } = props;
-
 </script>
 
 <div class="projectTile">
