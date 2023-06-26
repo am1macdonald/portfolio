@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca53d223-4df1-4422-80f2-ef0d30df78e3" name="Changes" comment="Add Vercel analytics">
+    <list default="true" id="ca53d223-4df1-4422-80f2-ef0d30df78e3" name="Changes" comment="Integrate SupaBase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Project/ProjectTile.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Project/ProjectTile.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Project/Projects.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Project/Projects.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Project/projectTileModule.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Project/projectTileModule.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/server/db/types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks.server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.server.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +152,7 @@
       <workItem from="1687347840567" duration="7867000" />
       <workItem from="1687484873534" duration="3335000" />
       <workItem from="1687520576713" duration="2838000" />
-      <workItem from="1687720379762" duration="18070000" />
+      <workItem from="1687720379762" duration="19332000" />
     </task>
     <task id="LOCAL-00001" summary="Update components">
       <created>1687138331171</created>
@@ -190,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687347962096</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Integrate SupaBase">
+      <created>1687740585644</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687740585644</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +214,7 @@
     <MESSAGE value="Prepare for aws sdk" />
     <MESSAGE value="Add aws adapter" />
     <MESSAGE value="Add Vercel analytics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Vercel analytics" />
+    <MESSAGE value="Integrate SupaBase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrate SupaBase" />
   </component>
 </project>
