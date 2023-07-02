@@ -5,15 +5,14 @@ $dark-blue: #5339b8;
 $light-blue: #6f67f0;
 
 .projectSection {
-	h2 {
-		padding: 3vh 5vw;
-		font-size: clamp(1.5em, 5vw, 2.5em);
-	}
+	width: 100vw;
 }
 .projectGrid {
+	width: 100%;
 	display: flex;
 	flex-direction: column;
-	gap: 3vh;
+	align-items: center;
+	gap: 5em;
 }
 .projectTile {
 	display: flex;
@@ -22,8 +21,9 @@ $light-blue: #6f67f0;
 	justify-content: space-evenly;
 	align-items: center;
 
+	max-width: 1500px;
+
 	padding: 6vh 1vw;
-	margin: 3vh 5vw;
 
 	border: 8px solid $light-blue;
 	box-shadow: 12px 20px 0 $dark-blue;

@@ -1,16 +1,24 @@
 <section id="about" class="aboutSection">
 	<div>
 		<h2>About me</h2>
-
-		<p>I'm a full-stack developer located in Toronto.</p>
-
 		<p>
-			I'm passionate about web development and eager to continue learning and growing in my career.
-			My background in industrial automation and railway signalling has given me a strong foundation
-			in problem-solving and logical thinking, which I apply to my work as a developer. I have built
-			many projects using technologies such as HTML, CSS, JavaScript, Angular, React, and others too
-			numerous to list. I am always looking for new challenges and opportunities in the field of
-			software development, and I am excited to see what the future holds.
+			As a full-stack developer based in Toronto, I leverage a deep passion for web development and
+			an incessant thirst for knowledge to drive my career forward. My robust background in
+			industrial automation and railway signalling has honed my problem-solving and logical thinking
+			skills, proving instrumental in my success as a developer.
+		</p>
+		<br>
+		<p>
+			I have extensive experience working with various technologies such as HTML, CSS,
+			JavaScript, Angular, and React. I have demonstrated my proficiency in these tools throughout
+			my career by applying them across many successful projects.
+		</p>
+		<br>
+		<p>
+			Grounded in a solid commitment to excellence, I consistently seek to overcome new
+			challenges and capitalize on opportunities within the dynamic landscape of software
+			development. I look forward to harnessing my expertise and unwavering enthusiasm to contribute
+			to future innovations in the field.
 		</p>
 	</div>
 </section>
@@ -18,7 +26,7 @@
 <style lang="scss">
 	.aboutSection {
 		display: flex;
-		justify-content: space-around;
+		justify-content: center;
 		align-items: center;
 		gap: 2vw;
 
@@ -29,13 +37,12 @@
 				font-size: clamp(1.5em, 5vw, 2.5em);
 				margin-bottom: 3vh;
 			}
-			p:first-of-type {
-				margin-bottom: 1vh;
-			}
 			p {
 				text-align: justify;
-
 				line-height: 1.4em;
+				letter-spacing: 0.02em;
+
+				max-width: 600px;
 			}
 		}
 	}

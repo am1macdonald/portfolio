@@ -18,5 +18,11 @@ body {
 	color: $whitish;
 }
 section {
-	padding: 5vh 2vw;
+	padding: 2em 12em;
+}
+
+@media only screen and (max-width: 1200px) {
+	section {
+		padding: 2em 2em;
+	}
 }
