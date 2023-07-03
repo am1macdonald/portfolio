@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca53d223-4df1-4422-80f2-ef0d30df78e3" name="Changes" comment="Turn off pre-render">
+    <list default="true" id="ca53d223-4df1-4422-80f2-ef0d30df78e3" name="Changes" comment="Update layout and About section">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/About.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/About.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Project/Projects.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Project/Projects.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Project/projectTileModule.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Project/projectTileModule.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/favicon.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +169,7 @@
       <workItem from="1687741982906" duration="2880000" />
       <workItem from="1687781536245" duration="31000" />
       <workItem from="1687909133994" duration="1455000" />
-      <workItem from="1688338527920" duration="1263000" />
+      <workItem from="1688338527920" duration="4347000" />
     </task>
     <task id="LOCAL-00001" summary="Update components">
       <created>1687138331171</created>
@@ -245,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687779497713</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update layout and About section">
+      <created>1688339813517</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688339813517</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +287,7 @@
     <MESSAGE value="Add load function" />
     <MESSAGE value="Try new method" />
     <MESSAGE value="Turn off pre-render" />
-    <option name="LAST_COMMIT_MESSAGE" value="Turn off pre-render" />
+    <MESSAGE value="Update layout and About section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update layout and About section" />
   </component>
 </project>

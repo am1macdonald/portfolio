@@ -11,8 +11,6 @@ export const handle: Handle = async ({ event, resolve }) => {
 		event
 	});
 
-	console.log('hooks');
-
 	return resolve(event, {
 		filterSerializedResponseHeaders(name) {
 			return name === 'content-range';
