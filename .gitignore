@@ -30,3 +30,5 @@ amplifytools.xcconfig
 .secret-*
 **.sample
 #amplify-do-not-edit-end
+.idea
+.idea/workspace.xml
