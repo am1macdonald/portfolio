@@ -6,13 +6,9 @@ Thanks for stopping by the repo for my portfolio!
 
 This is a collection of some of my favorite projects I have built over the years.
 
-// section under construction
-
 ## Technologies
 
-Built with create react app for rapid setup and support of tooling.
-
-// section under construction
+Built with Svelte. Yes it's overkill.
 
 ## Installation
 
