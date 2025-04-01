@@ -2,23 +2,18 @@
 	<div>
 		<h2>About me</h2>
 		<p>
-			As a full-stack developer based in Toronto, I leverage a deep passion for web development and
-			an incessant thirst for knowledge to drive my career forward. My robust background in
-			industrial automation and railway signalling has honed my problem-solving and logical thinking
-			skills, proving instrumental in my success as a developer.
+                        I'm Adam MacDonald, a Senior Full-Stack Developer with 2+ years of professional experience
+			who has found my true calling in back-end and infrastructure engineering. With expertise in JavaScript,
+			Scala, and Go, I specialize in building scalable server-side systems, optimizing database architectures, 
+			and implementing DevOps solutions including Docker containerization and CI/CD pipelines.
 		</p>
 		<br>
 		<p>
-			I have extensive experience working with various technologies such as HTML, CSS,
-			JavaScript, Angular, and React. I have demonstrated my proficiency in these tools throughout
-			my career by applying them across many successful projects.
-		</p>
-		<br>
-		<p>
-			Grounded in a solid commitment to excellence, I consistently seek to overcome new
-			challenges and capitalize on opportunities within the dynamic landscape of software
-			development. I look forward to harnessing my expertise and unwavering enthusiasm to contribute
-			to future innovations in the field.
+			At Urbint (formerly ComPeters Inc.), I've enhanced GeoServer configurations, optimized PostGIS database schemas,
+			and developed efficient Node.js server routes—reducing map loading times from 90 seconds to under 10 and designing 
+			flexible search systems that support ~50 customizable parameters. I'm now seeking opportunities to leverage my
+			technical expertise in back-end engineering and infrastructure management roles where I can continue building reliable,
+			scalable systems.
 		</p>
 	</div>
 </section>
