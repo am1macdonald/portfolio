@@ -1,0 +1,493 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ── Global ── */
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Fira Mono", monospace;
+	background-color: #201e1f;
+	color: #dcdde1;
+}
+
+section {
+	padding: 2em 12em;
+}
+
+hr {
+	height: 5px;
+	border-width: 0;
+	background-color: #00a4bd;
+}
+
+@media only screen and (max-width: 1200px) {
+	section {
+		padding: 2em 2em;
+	}
+}
+
+/* ── Navbar ── */
+
+.nav {
+	position: fixed;
+	z-index: 1000;
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	align-items: center;
+	width: 100vw;
+	min-height: 5vh;
+	padding: 0;
+}
+
+.navlist {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	height: 5vh;
+	padding: 0 max(2.5vw, 25px);
+	background: linear-gradient(
+		90deg,
+		rgba(32, 30, 31, 0) 0%,
+		rgba(32, 30, 31, 0.2) 5%,
+		rgba(32, 30, 31, 0.3) 15%,
+		rgba(32, 30, 31, 0.5) 45%,
+		rgba(32, 30, 31, 0.5) 100%
+	);
+	box-shadow: 1vw 2px 20px 1px #201e1f6d;
+}
+
+.navlist li a {
+	text-decoration: none;
+	color: #dcdde1;
+}
+
+@media only screen and (max-width: 450px) {
+	.nav {
+		justify-content: center;
+		align-items: center;
+	}
+	.navlist {
+		width: 100%;
+		justify-content: space-around;
+		padding: 1vw;
+	}
+}
+
+/* ── Hero ── */
+
+.heroDiv {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.heroDiv > div:first-child > * {
+	padding: 2vh 2vw;
+}
+
+.heroDiv h1 {
+	border-top: 6px solid #dcdde1;
+	font-size: clamp(1.6em, 6vw, 3.5em);
+}
+
+.heroDiv p {
+	border-top: 2px solid #dcdde1;
+	line-height: 1.3rem;
+}
+
+.shapeContainer {
+	position: relative;
+	width: 550px;
+}
+
+.clipFront {
+	width: 100%;
+	height: 50vh;
+	clip-path: polygon(50% 5%, 65% 15%, 95% 90%, 70% 80%, 50% 30%, 30% 80%, 5% 90%, 35% 15%);
+	background-color: #6f67f0;
+	box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.726);
+}
+
+.clipBack {
+	z-index: -1;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 50vh;
+	clip-path: polygon(
+		50% 50%,
+		65% 5%,
+		90% 25%,
+		95% 80%,
+		75% 100%,
+		75% 35%,
+		50% 80%,
+		25% 35%,
+		25% 100%,
+		5% 80%,
+		10% 25%,
+		35% 5%
+	);
+	background-color: #5339b8;
+	box-shadow: #05050575;
+}
+
+@media only screen and (max-width: 1100px) {
+	.shapeContainer {
+		display: none;
+	}
+}
+
+/* ── About ── */
+
+.aboutSection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2vw;
+}
+
+.aboutSection div {
+	max-width: 90vw;
+	padding: 2vw;
+}
+
+.aboutSection h2 {
+	font-size: clamp(1.5em, 5vw, 2.5em);
+	margin-bottom: 3vh;
+}
+
+.aboutSection p {
+	text-align: justify;
+	line-height: 1.4em;
+	letter-spacing: 0.02em;
+	max-width: 600px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.aboutSection {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+/* ── Projects ── */
+
+.projectSection {
+	width: 100vw;
+}
+
+.projectGrid {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5em;
+}
+
+.projectTile {
+	display: flex;
+	flex-direction: row;
+	gap: 2vh;
+	justify-content: space-evenly;
+	align-items: center;
+	max-width: 1500px;
+	padding: 6vh 1vw;
+	border: 8px solid #6f67f0;
+	box-shadow: 12px 20px 0 #5339b8;
+	background-color: rgba(15, 15, 15, 0.148);
+}
+
+.projectTile > div {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	gap: 3vw;
+}
+
+.projectTile .tileMedia {
+	flex-direction: column;
+	gap: 2vh;
+}
+
+.projectTile .tileLinks {
+	flex-direction: row;
+	justify-content: space-around;
+	gap: 0;
+	width: 100%;
+}
+
+.projectTile .tileLinks > div {
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	max-width: 50%;
+	gap: 1vh;
+}
+
+.projectTile .tileLinks a {
+	font-size: 2rem;
+	color: #dcdde1;
+}
+
+.projectTile .tileLinks a:hover {
+	transform: scale(1.2);
+}
+
+.projectTile .tileLinks p {
+	font-size: 1.1rem;
+	line-height: 1.15rem;
+}
+
+.projectTile .tileInfo {
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 1vh;
+	max-width: 40%;
+	line-height: 1.15rem;
+}
+
+.projectTile .tileInfo h3 {
+	font-size: 1.3rem;
+}
+
+.projectTile img {
+	box-shadow: 5px 5px 5px black;
+	transition: transform 200ms ease-in-out;
+}
+
+.projectTile img:hover {
+	transform: scale(1.02);
+}
+
+.projectThumbnail {
+	width: 100%;
+	max-width: 480px;
+	height: auto;
+}
+
+pre {
+	overflow-x: auto;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
+
+@media only screen and (max-width: 1200px) {
+	.projectGrid {
+		gap: 6vh;
+	}
+	.projectTile {
+		padding: 3vh 0.1vw;
+		margin: 1vh 1vw;
+		border: 4px solid #6f67f0;
+		box-shadow: 6px 10px 0 #5339b8;
+		background-color: rgba(15, 15, 15, 0.148);
+	}
+	.projectTile a {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.projectTile > div {
+		flex-direction: column;
+		gap: 6vh;
+	}
+	.projectTile .tileMedia {
+		gap: 4vh;
+	}
+	.projectTile .tileInfo {
+		max-width: 90%;
+	}
+	.projectTile .tileInfo h3 {
+		margin-bottom: 2vh;
+	}
+	.projectTile .tileInfo p {
+		text-align: left;
+		padding: 1.5vh 0;
+	}
+	.projectTile img {
+		max-width: 90%;
+	}
+}
+
+/* ── Contact ── */
+
+.contactSection {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.contactSection ul {
+	display: flex;
+	gap: 5vw;
+}
+
+.contactSection h3 {
+	font-size: 1.3rem;
+	padding: 1rem 0;
+}
+
+.contactSection a {
+	text-decoration: none;
+	font-size: 3em;
+	color: #dcdde1;
+}
+
+/* ── Footer ── */
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 5vh;
+}

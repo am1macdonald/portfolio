@@ -1,0 +1,37 @@
+[
+	{
+		"title": "Brewtal",
+		"summary": "\"Brewtal\" is an application for coffee enthusiasts who want to track and share their coffee brewing profiles.\n\nThis app is a work in progress.\n\nTechnologies & tools: JavaScript - SvelteKit\nRust - Rocket Web framework",
+		"image_url": "",
+		"live_url": "https://github.com/am1macdonald/brewtal",
+		"repo_url": "https://github.com/am1macdonald/brewtal"
+	},
+	{
+		"title": "Do.",
+		"summary": "\"Do.\" was built using Vanilla JavaScript's DOM manipulation and styled using pure CSS for a unique user interface and experience. It utilizes Vite to bundle JavaScript modules and manage dependencies.\n\nThe backend for this project has been written in Go, leveraging a sql-lite database for storage.\n\nLanguages: JavaScript, GO",
+		"image_url": "",
+		"live_url": "https://todo.techcraftedbyadam.com/",
+		"repo_url": "https://github.com/am1macdonald/to-do-list"
+	},
+	{
+		"title": "The Stacks",
+		"summary": "\"The Stacks\" is an application for users to track their reading lists. It is fully responsive for usability across all manner of devices.\n\nThe app allows users to add books they have read or books on their 'to read' list.\n\nTechnologies & tools: JavaScript, HTML, CSS & Sass",
+		"image_url": "",
+		"live_url": "https://am1macdonald.github.io/library/",
+		"repo_url": "https://github.com/am1macdonald/library"
+	},
+	{
+		"title": "MEGA-LO-MART",
+		"summary": "\"Mega-lo-Mart\" is a mock e-commerce page that uses React Router to deliver a multi-page shopping experience in a single-page application.\n\nI built this project to showcase my knowledge of React hooks and Test Driven Development.\n\nTechnologies & tools: JavaScript, HTML5, CSS, React, SCSS, REST APIs & ES6 modules.",
+		"image_url": "",
+		"live_url": "https://am1macdonald.github.io/shopping-cart/",
+		"repo_url": "https://github.com/am1macdonald/shopping-cart"
+	},
+	{
+		"title": "Sunny Days",
+		"summary": "Core Tech: JavaScript-based for cross-platform, responsive performance. Uses OpenWeatherMap API for real-time weather info and features reverse geocoding for precise location forecasts.\n\nMobile-first design with a clean, minimalistic interface. Offers up to a week-long weather forecast.",
+		"image_url": "",
+		"live_url": "https://am1macdonald.github.io/weather-app/",
+		"repo_url": "https://github.com/am1macdonald/weather-app"
+	}
+]
