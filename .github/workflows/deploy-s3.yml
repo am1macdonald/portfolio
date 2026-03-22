@@ -26,9 +26,7 @@ jobs:
 
             - name: Sync site to S3
               run: |
-                  # Same naming as my_infra/locals.tf static_site_bucket_name (techcraftedbyadam.com).
-                  ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
-                  BUCKET="static-hosting-bucket-${ACCOUNT_ID}"
+                  BUCKET="tech-crafted-by-adam-bucket-585279896095"
                   echo "Deploying to s3://${BUCKET}"
                   aws s3 sync . "s3://${BUCKET}" --delete \
                     --exclude ".git/*" \

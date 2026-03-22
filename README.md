@@ -98,17 +98,14 @@ Create a dedicated IAM user (no console access) used only for deploys:
 
 In the GitHub repo: **Settings → Secrets and variables → Actions**.
 
-**Secrets**
-
-- `AWS_ACCESS_KEY_ID` — IAM access key ID
-- `AWS_SECRET_ACCESS_KEY` — IAM secret access key
-
 **Variables** (repository variables)
 
-- `AWS_S3_BUCKET` — bucket name (required; the workflow fails without it)
-- `AWS_REGION` — optional; defaults to `us-east-1` in the workflow if unset
+- `AWS_ROLE_ARN` — IAM role for GitHub Actions OIDC (must allow deploy to the static site bucket)
+- `AWS_REGION` — optional; defaults to `ca-central-1` in the workflow if unset
 
-After the next push to `main` or `revamp` (or a manual workflow run), the site files are synced to the bucket with `aws s3 sync --delete`, excluding dev-only paths (for example `node_modules`, `.github`, and npm config files).
+The workflow deploys to **`tech-crafted-by-adam-bucket-585279896095`** (same bucket as `my_infra` / techcraftedbyadam.com).
+
+After the next push to `main` (or a manual workflow run), the site files are synced to that bucket with `aws s3 sync --delete`, excluding dev-only paths (for example `node_modules`, `.github`, and npm config files).
 
 ### Optional: Amazon CloudFront
 
