@@ -1,0 +1,43 @@
+name: Deploy to S3
+
+on:
+    push:
+        branches: [main, revamp]
+    workflow_dispatch:
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: read
+        env:
+            AWS_REGION: ${{ vars.AWS_REGION || 'us-east-1' }}
+        steps:
+            - uses: actions/checkout@v4
+
+            - name: Configure AWS credentials
+              uses: aws-actions/configure-aws-credentials@v4
+              with:
+                  aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+                  aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+                  aws-region: ${{ env.AWS_REGION }}
+
+            - name: Sync site to S3
+              env:
+                  BUCKET: ${{ vars.AWS_S3_BUCKET }}
+              run: |
+                  if [ -z "$BUCKET" ]; then
+                    echo "Set repository variable AWS_S3_BUCKET to your bucket name."
+                    exit 1
+                  fi
+                  aws s3 sync . "s3://${BUCKET}" --delete \
+                    --exclude ".git/*" \
+                    --exclude ".github/*" \
+                    --exclude "node_modules/*" \
+                    --exclude ".cursor/*" \
+                    --exclude ".DS_Store" \
+                    --exclude "package.json" \
+                    --exclude "package-lock.json" \
+                    --exclude "eslint.config.js" \
+                    --exclude ".prettierrc" \
+                    --exclude ".prettierignore"

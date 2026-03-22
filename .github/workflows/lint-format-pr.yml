@@ -1,0 +1,36 @@
+name: Lint and format (PR)
+
+on:
+    pull_request:
+        types: [opened, synchronize, reopened]
+
+permissions:
+    contents: write
+
+jobs:
+    lint-format:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  ref: ${{ github.head_ref }}
+                  fetch-depth: 0
+
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: "22"
+                  cache: npm
+
+            - run: npm ci
+
+            - run: npm run format
+
+            - run: npm run lint:fix
+
+            - run: npm run lint
+
+            - uses: stefanzweifel/git-auto-commit-action@v5
+              with:
+                  commit_message: "style: apply lint and format"
+                  commit_user_name: github-actions[bot]
+                  commit_user_email: github-actions[bot]@users.noreply.github.com
