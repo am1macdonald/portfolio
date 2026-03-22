@@ -41,3 +41,11 @@ jobs:
                     --exclude ".prettierignore" \
                     --exclude ".gitignore" \
                     --exclude "README.md"
+
+            # Local equivalent: aws cloudfront create-invalidation \
+            #   --distribution-id EHIHNCSY9IHIQ --paths "/*" --profile myawsprofile
+            - name: Invalidate CloudFront cache
+              run: |
+                  aws cloudfront create-invalidation \
+                    --distribution-id EHIHNCSY9IHIQ \
+                    --paths "/*"
