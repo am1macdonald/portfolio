@@ -1,15 +1,31 @@
-# My Portfolio - A Collection of my Favorite Projects
+# Portfolio
 
-Thanks for stopping by the repo for my portfolio!
+A static portfolio site for Adam MacDonald.
 
-## About
+## Structure
 
-This is a collection of some of my favorite projects I have built over the years.
+- `index.html` — main page
+- `style.css` — all styles
+- `script.js` — loads project data from JSON
+- `projects.json` — project entries (edit this to add/remove projects)
+- `favicon.png` — site icon
 
-## Technologies
+## Usage
 
-Built with Svelte. Yes it's overkill.
+Open `index.html` in a browser, or serve with any static file server:
 
-## Installation
+```sh
+python3 -m http.server
+```
 
-Clone the repository and run `npm install`
+Edit `projects.json` to manage the projects section. Each entry needs:
+
+```json
+{
+  "title": "Project Name",
+  "summary": "Short description",
+  "image_url": "https://...",
+  "live_url": "https://...",
+  "repo_url": "https://..."
+}
+```
