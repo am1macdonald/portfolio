@@ -22,10 +22,10 @@ Edit `projects.json` to manage the projects section. Each entry needs:
 
 ```json
 {
-  "title": "Project Name",
-  "summary": "Short description",
-  "image_url": "https://...",
-  "live_url": "https://...",
-  "repo_url": "https://..."
+	"title": "Project Name",
+	"summary": "Short description",
+	"image_url": "https://...",
+	"live_url": "https://...",
+	"repo_url": "https://..."
 }
 ```
