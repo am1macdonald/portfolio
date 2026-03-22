@@ -38,4 +38,6 @@ jobs:
                     --exclude "package-lock.json" \
                     --exclude "eslint.config.js" \
                     --exclude ".prettierrc" \
-                    --exclude ".prettierignore"
+                    --exclude ".prettierignore" \
+                    --exclude ".gitignore" \
+                    --exclude "README.md"
