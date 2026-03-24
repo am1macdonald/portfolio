@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap");
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -133,10 +135,8 @@ table {
 	border-spacing: 0;
 }
 
+
 /* ── Global ── */
-
-@import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap");
-
 * {
 	box-sizing: border-box;
 }
@@ -220,8 +220,9 @@ hr {
 /* ── Hero ── */
 
 .heroDiv {
+  padding: 4rem 0;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 }
 
@@ -239,52 +240,7 @@ hr {
 	line-height: 1.3rem;
 }
 
-.shapeContainer {
-	position: relative;
-	width: 550px;
-}
-
-.clipFront {
-	width: 100%;
-	height: 50vh;
-	clip-path: polygon(50% 5%, 65% 15%, 95% 90%, 70% 80%, 50% 30%, 30% 80%, 5% 90%, 35% 15%);
-	background-color: #6f67f0;
-	box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.726);
-}
-
-.clipBack {
-	z-index: -1;
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 100%;
-	height: 50vh;
-	clip-path: polygon(
-		50% 50%,
-		65% 5%,
-		90% 25%,
-		95% 80%,
-		75% 100%,
-		75% 35%,
-		50% 80%,
-		25% 35%,
-		25% 100%,
-		5% 80%,
-		10% 25%,
-		35% 5%
-	);
-	background-color: #5339b8;
-	box-shadow: #05050575;
-}
-
-@media only screen and (max-width: 1100px) {
-	.shapeContainer {
-		display: none;
-	}
-}
-
 /* ── About ── */
-
 .aboutSection {
 	display: flex;
 	justify-content: center;
