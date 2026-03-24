@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
 				const tile = document.createElement("div");
 				tile.className = "projectTile";
 				tile.innerHTML = `
-					<div>
 						<div class="tileMedia">
 							<a href="${p.live_url}">
 								<img src="${p.image_url}" alt="${p.title} thumbnail" class="projectThumbnail" />
@@ -26,8 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 						<div class="tileInfo">
 							<h3>${p.title}</h3>
 							<pre>${p.summary}</pre>
-						</div>
-					</div>`;
+						</div>`;
 				grid.appendChild(tile);
 			});
 		});

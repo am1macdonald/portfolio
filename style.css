@@ -226,6 +226,10 @@ hr {
 	align-items: center;
 }
 
+.heroDiv > div {
+  width: 90vw;
+}
+
 .heroDiv > div:first-child > * {
 	padding: 2vh 2vw;
 }
@@ -299,7 +303,7 @@ hr {
 	background-color: rgba(15, 15, 15, 0.148);
 }
 
-.projectTile > div {
+.projectTile {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
@@ -307,11 +311,13 @@ hr {
 }
 
 .projectTile .tileMedia {
+  display: flex;
 	flex-direction: column;
 	gap: 2vh;
 }
 
 .projectTile .tileLinks {
+  display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	gap: 0;
@@ -319,6 +325,7 @@ hr {
 }
 
 .projectTile .tileLinks > div {
+  display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
@@ -341,6 +348,7 @@ hr {
 }
 
 .projectTile .tileInfo {
+  display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 1vh;
@@ -392,7 +400,7 @@ pre {
 		justify-content: center;
 		align-items: center;
 	}
-	.projectTile > div {
+	.projectTile {
 		flex-direction: column;
 		gap: 6vh;
 	}
