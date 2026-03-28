@@ -1,6 +1,7 @@
 [
 	{
 		"title": "Brewtal",
+		"render": false,
 		"summary": "\"Brewtal\" is an application for coffee enthusiasts who want to track and share their coffee brewing profiles.\n\nThis app is a work in progress.\n\nTechnologies & tools: JavaScript - SvelteKit\nRust - Rocket Web framework\n",
 		"image_url": "assets/brewtal.png",
 		"live_url": "https://github.com/am1macdonald/brewtal",
@@ -8,6 +9,7 @@
 	},
 	{
 		"title": "Do.",
+		"render": true,
 		"summary": "\"Do.\" was built using Vanilla JavaScript's DOM manipulation and styled using pure CSS for a unique user interface and experience. It utilizes Vite to bundle JavaScript modules and manage dependencies.\n\nThe backend for this project has been written in Go, leveraging a sql-lite database for storage. \n\nLanguages: JavaScript, GO",
 		"image_url": "assets/todoListApp.png",
 		"live_url": "https://todo.techcraftedbyadam.com/",
@@ -15,6 +17,7 @@
 	},
 	{
 		"title": "The Stacks",
+		"render": true,
 		"summary": "\"The Stacks\" is an application for users to track their reading lists. It is fully responsive for usability across all manner of devices.\n\nThe app allows users to add books they have read or books on their 'to read' list.\n\n\"The Stacks\" will soon be integrated with the Firebase backend to allow users to access their data across multiple devices. Also, it will use the GoodReads API to provide the user with rating data for books they wish to read before they provide their rating.\n\nTechnologies & tools: JavaScript, HTML, CSS & Sass\n",
 		"image_url": "assets/libraryShelf.png",
 		"live_url": "https://am1macdonald.github.io/library/",
@@ -22,6 +25,7 @@
 	},
 	{
 		"title": "MEGA-LO-MART",
+		"render": true,
 		"summary": "\"Mega-lo-Mart\" is a mock e-commerce page that uses React Router to deliver a multi-page shopping experience in a single-page application.\n\nI built this project to showcase my knowledge of React hooks and Test Driven Development. This store page is a tribute to my favourite animation of all time, 'King of the Hill.'\n\nThe store uses SASS and CSS modules for full responsiveness.\n\nTechnologies & tools: JavaScript, HTML5, CSS, React, react hooks, SCSS preprocessing, Node Package Manager, REST APIs & ES6 modules.\n",
 		"image_url": "assets/storePage.png",
 		"live_url": "https://am1macdonald.github.io/shopping-cart/",
@@ -29,6 +33,7 @@
 	},
 	{
 		"title": "Sunny Days",
+		"render": true,
 		"summary": "Core Tech: JavaScript-based for cross-platform, responsive performance. Optimized for web browser access, no downloads needed.\n\nData Integration: Uses OpenWeatherMap API for real-time weather info (temperature, humidity, wind speed, etc.) and features reverse geocoding for precise location forecasts.\n\nUser Interface: Mobile-first design for optimal use on smartphones, with a clean, minimalistic interface. Designed for ease of use, catering to all user levels.\n\nFunctionality: Offers up to a week-long weather forecast. Fully responsive across different devices and screen sizes.\n\nDeployment & Compatibility: Compatible with major web browsers (Chrome, Firefox, Safari, Edge) and hosted on a scalable cloud platform for high availability.",
 		"image_url": "assets/weatherApp.png",
 		"live_url": "https://am1macdonald.github.io/weather-app/",

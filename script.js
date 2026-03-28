@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		.then((res) => res.json())
 		.then((projects) => {
 			const grid = document.getElementById("projects");
-			projects.forEach((p) => {
+			projects.filter((p) => p.render !== false).forEach((p) => {
 				const tile = document.createElement("div");
 				tile.className = "projectTile";
 				tile.innerHTML = `
